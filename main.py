@@ -39,16 +39,9 @@ groups = load_data(GROUPS_FILE)
 chatbot_status = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    uid = update.effective_user.id
-
-    if uid not in users:
-        users.append(uid)
-        save_data(USERS_FILE, users)
-
-    username = (
-        f"@{update.effective_user.username}"
-        if update.effective_user.username
-        else update.effective_user.first_name
+    await context.bot.send_photo(
+        chat_id=update.effective_chat.id,
+        photo="https://picsum.photos/500"
     )
 
     caption = f"""
