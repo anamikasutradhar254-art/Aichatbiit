@@ -1,3 +1,4 @@
+import random
 import os
 import json
 
@@ -129,6 +130,26 @@ async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
 
+async def sticker_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    sticker = update.message.sticker
+
+    if sticker and sticker.set_name:
+        try:
+            sticker_set = await context.bot.get_sticker_set(
+                sticker.set_name
+            )
+
+            random_sticker = random.choice(
+                sticker_set.stickers
+            )
+
+            await update.message.reply_sticker(
+                random_sticker.file_id
+            )
+
+        except Exception as e:
+            print(e)
+
 async def ai_chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
@@ -155,7 +176,7 @@ async def ai_chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
             messages=[
                 {
     "role": "system",
-    "content": """
+ "content": """
 You are Ada.
 
 Rules:
