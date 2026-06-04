@@ -16,8 +16,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 OWNER_ID = int(os.getenv("OWNER_ID"))
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
-
+model = genai.GenerativeModel("gemini-2.5-flash")
 USERS_FILE = "users.json"
 GROUPS_FILE = "groups.json"
 
