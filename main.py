@@ -39,32 +39,18 @@ groups = load_data(GROUPS_FILE)
 chatbot_status = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_photo(
-        chat_id=update.effective_chat.id,
-        photo="https://picsum.photos/500"
-    )
-
-    caption = f"""
-💕 Hieeeeee {username}
+    await update.message.reply_text(
+        """
+💕 Hieeeeee
 
 I'm Ada ✨
-
-Tumhari Friendly Gaming Girl 💖
-
-Mujhse baat karo, masti karo aur gaming discuss karo 🎮
 
 🦋 Support Channel:
 @jp_network
 
 Use /help To Explore My Features
 """
-
-    await context.bot.send_photo(
-        chat_id=update.effective_chat.id,
-        photo=START_PHOTO,
-        caption=caption
     )
-
     chatbot_status[update.effective_chat.id] = True
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
