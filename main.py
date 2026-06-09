@@ -26,20 +26,20 @@ GROUPS_FILE = "groups.json"
 ACTIVE_FILE = "active_members.json"
 
 COUPLE_PHOTOS = [
-    "https://kommodo.ai/i/R9KpGrTzkFsw73ZbdeqV",
-    "https://kommodo.ai/i/R9KpGrTzkFsw73ZbdeqV"
+    "https://kommodo.ai/i/zxgdh45YyX2vk9HaNBlE",
+    "https://kommodo.ai/i/bBggBx9cyGNz2iEBkaSg"
 ]
 
 GIFS = {
     "slap": "https://media.giphy.com/media/Gf3AUz3eBNbTW/giphy.gif",
-    "kiss": "https://media.giphy.com/media/bGm9FuBCGg4SY/giphy.gif",
+    "kiss": "AAMCBAADGQEAAUvy3GooDVQe5r0KeRSHKUDIo1GOHvJpAAKPBAACPJy1URTeCvTTXxQSAQAHbQADOwQ",
     "hug": "https://media.giphy.com/media/od5H3PmEG5EVq/giphy.gif",
     "pat": "https://media.giphy.com/media/ARSp9T7wwxNcs/giphy.gif",
-    "bite": "https://media.giphy.com/media/1Bgr0VaRnx3pCZbaJa/giphy.gif",
-    "punch": "https://media.giphy.com/media/l1J3G5lf06vi58EIE/giphy.gif",
-    "kill": "https://media.giphy.com/media/3ohhwfAa9rbXaZe86c/giphy.gif",
-    "dance": "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif",
-    "cry": "https://media.giphy.com/media/OPU6wzx8JrHna/giphy.gif"
+    "bite": "AAMCBAADGQEAAUvy2GooDN0J6nT-txCl0sUUv4pFUBeNAAKsBQACzSO8Ud8MPbgwZnL7AQAHbQADOwQ",
+    "punch": "AAMCBAADGQEAAUvy1mooDLgAAUD4pI4daeT-vLi14KtZ4gAChgYAAgg7LVJ7IUE0qfwMuQEAB20AAzsE",
+    "kill": "CgACAgQAAxkBAAFL8sNqKAvG5CLlpa-l9Fyln_xovQo1TwACfgMAAr4p5VNnCPCGZfJ3BjsE",
+    "dance": "AAMCBAADGQEAAUvy0GooDJ1HE7kRxSRHPhWN0YI5J6JjAALBCgAC7FdEU8NBCeqxQ7f8AQAHbQADOwQ",
+    "cry": "AAMCBAADGQEAAUvyzGooDF-AHFEvmDov9NHrB0d2XID9AAIwCAACJLbtUXvpezIs2VHIAQAHbQADOwQ"
 }
 
 
