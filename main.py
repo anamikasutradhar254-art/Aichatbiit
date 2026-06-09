@@ -31,7 +31,7 @@ COUPLE_PHOTOS = [
 ]
 
 GIFS = {
-    "slap": "https://media.giphy.com/media/Gf3AUz3eBNbTW/giphy.gif",
+    "slap": "https://giphy.com/gifs/slap-gif-9U5J7JpaYBr68",
     "kiss": "https://media.giphy.com/media/bGm9FuBCGg4SY/giphy.gif",
     "hug": "https://media.giphy.com/media/od5H3PmEG5EVq/giphy.gif",
     "pat": "https://media.giphy.com/media/ARSp9T7wwxNcs/giphy.gif",
